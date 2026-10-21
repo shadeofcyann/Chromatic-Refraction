@@ -15,14 +15,14 @@ body {
   /* ============================================================= */
   /* Primary Color
   ================================================================ */
-  --cd-primary-color: #8FB7D4;
+  --cd-primary-color: #500ff1;
   --cd-primary-text-color: #fff;
 
   /* ============================================================= */
   /* Secondary Color
   ================================================================ */
-  --cd-secondary-color: #939799;
-  --cd-secondary-text-color: #fff;
+  --cd-secondary-color: #73fff2;
+  --cd-secondary-text-color: #00;
 
   /* ============================================================= */
   /* Backgrounds
@@ -730,8 +730,8 @@ p:last-child {
   color: #ffffff;
   background-color: #d8faff;
   background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: 100% 100%;
+background-repeat: no-repeat;
   border-radius: var(--cd-border-radius);
   font-family: var(--cd-header-font-family);
   display: flex;
