@@ -16,7 +16,7 @@ let charadex = {};
 /* ==================================================================== */
 charadex.site = {
   title: "Chromatic Refraction",
-  url: "https://charadex-team.github.io/charadex-v1.0/",
+  url: "https://shadeofcyann.github.io/Chromatic-Refraction/",
   description: `A tool for organizing small ARPGs and species.`
 }
 
