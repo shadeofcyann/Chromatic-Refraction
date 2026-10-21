@@ -37,8 +37,8 @@ body {
   /* ============================================================= */
   /* Text
   ================================================================ */
-  --cd-body-text-color: #303030;
-  --cd-faded-text-color: #575757;
+  --cd-body-text-color: #000000;
+  --cd-faded-text-color: #000000;
 
   /* ============================================================= */
   /* Borders
@@ -51,7 +51,7 @@ body {
   /* ============================================================= */
   /* Navbar
   ================================================================ */
-  --cd-navbar-background-color: #222222;
+  --cd-navbar-background-color: #00;
   --cd-navbar-brand-color: var(--cd-primary-color);
   --cd-navbar-brand-color-hover: var(--cd-secondary-color);
   --cd-navbar-text-color: var(--cd-content-background-color);
