@@ -784,59 +784,83 @@ background-repeat: no-repeat;
 }
 
 
-/* Chromatic Refraction: NEON RAINBOW */
+
+/* CHROMATIC REFRACTION: NEON ROYGBIV */
 
 @keyframes chromatic-rainbow {
   0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
 }
 
+/* Keep navbar black */
+.navbar {
+  background-color: #000000 !important;
+}
+
+/* Rainbow logo text */
+.navbar .navbar-brand {
+  background: linear-gradient(
+    90deg,
+    #ff0000,
+    #ff7f00,
+    #ffff00,
+    #00ff00,
+    #0000ff,
+    #4b0082,
+    #9400ff,
+    #ff0000
+  );
+  background-size: 300% 100%;
+  animation: chromatic-rainbow 5s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Neon rainbow buttons */
 .btn.btn-primary,
 .badge.badge-primary {
   background: linear-gradient(
     90deg,
-    #ff00a8,
-    #ff5e00,
-    #faff00,
-    #39ff14,
-    #00f5ff,
-    #245bff,
-    #9d00ff,
-    #ff00a8
+    #ff0000,
+    #ff7f00,
+    #ffff00,
+    #00ff00,
+    #0000ff,
+    #4b0082,
+    #9400ff,
+    #ff0000
   ) !important;
-
-  background-size: 400% 400% !important;
-  animation: chromatic-rainbow 6s ease infinite;
+  background-size: 300% 100% !important;
+  animation: chromatic-rainbow 5s linear infinite;
   border-color: transparent !important;
-  color: #17152e !important;
+  color: #000000 !important;
 }
 
-/* Neon navigation logo */
-
-.navbar .navbar-brand {
+/* Rainbow text accents */
+.text-primary {
   background: linear-gradient(
     90deg,
-    #00f5ff,
-    #39ff14,
-    #faff00,
-    #ff5e00,
-    #ff00a8,
-    #9d00ff,
-    #00f5ff
+    #ff0000,
+    #ff7f00,
+    #ffff00,
+    #00ff00,
+    #0000ff,
+    #4b0082,
+    #9400ff
   );
-
-  background-size: 400% 400%;
-  animation: chromatic-rainbow 6s ease infinite;
+  background-size: 300% 100%;
+  animation: chromatic-rainbow 5s linear infinite;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent !important;
+  -webkit-text-fill-color: transparent;
 }
 
-/* Neon glow on buttons */
-
+/* Neon glow on hover */
 .btn.btn-primary:hover {
   box-shadow:
-    0 0 8px #00f5ff,
-    0 0 18px #ff00a8 !important;
+    0 0 8px #0000ff,
+    0 0 18px #9400ff !important;
 }
