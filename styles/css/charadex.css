@@ -127,8 +127,8 @@ body {
   /* Link
   ================================================================ */
 
-  --cd-link-text-color: #ffffff;
-  --cd-link-text-color-hover: var(--cd-secondary-color);
+--cd-link-text-color: #ffffff;
+--cd-link-text-color-hover: #73fff2;
 
 
   /* ============================================================= */
