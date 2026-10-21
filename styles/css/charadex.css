@@ -230,8 +230,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   /* Global Background */
-  background-color: var(--cd-body-background-color);
-  background-image: var(--cd-body-background-image);
+  background-color: #1a1a1a;
+  background-image: none;
   background-position: center;
   background-size: cover;
 
