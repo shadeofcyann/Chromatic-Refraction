@@ -782,3 +782,61 @@ background-repeat: no-repeat;
   background-color: var(--cd-rarity-legendary-bg);
   color: var(--cd-rarity-legendary-txt);
 }
+
+
+/* Chromatic Refraction: NEON RAINBOW */
+
+@keyframes chromatic-rainbow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.btn.btn-primary,
+.badge.badge-primary {
+  background: linear-gradient(
+    90deg,
+    #ff00a8,
+    #ff5e00,
+    #faff00,
+    #39ff14,
+    #00f5ff,
+    #245bff,
+    #9d00ff,
+    #ff00a8
+  ) !important;
+
+  background-size: 400% 400% !important;
+  animation: chromatic-rainbow 6s ease infinite;
+  border-color: transparent !important;
+  color: #17152e !important;
+}
+
+/* Neon navigation logo */
+
+.navbar .navbar-brand {
+  background: linear-gradient(
+    90deg,
+    #00f5ff,
+    #39ff14,
+    #faff00,
+    #ff5e00,
+    #ff00a8,
+    #9d00ff,
+    #00f5ff
+  );
+
+  background-size: 400% 400%;
+  animation: chromatic-rainbow 6s ease infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent !important;
+}
+
+/* Neon glow on buttons */
+
+.btn.btn-primary:hover {
+  box-shadow:
+    0 0 8px #00f5ff,
+    0 0 18px #ff00a8 !important;
+}
