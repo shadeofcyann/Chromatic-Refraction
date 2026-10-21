@@ -29,27 +29,27 @@ charadex.sheet = {
   id: "11eo1um-kaClB0MIiOVb2xDoh6BnYPA3vJlmB6BDMvXc",
 
   pages: {
-    masterlist:    "masterlist",
-    masterlistLog: "masterlist log",
-    inventory:     "inventory",
-    inventoryLog:  "inventory log",
-    items:         "items",
-    traits:        "traits",
-    prompts:       "prompts",
-    faq:           "faq",
-    staff:         "mods",
-  },
+  masterlist:    "Masterlist",
+  masterlistLog: "Masterlist Log",
+  inventory:     "Organizations",
+  inventoryLog:  "Timelines",
+  items:         "Locations",
+  traits:        "Realms",
+  prompts:       "History & Events",
+  faq:           "World Knowledge",
+  staff:         "Mods",
+},
 
-  options: {
+  
+options: {
+  designTypes: ['All', 'Chromanyx', 'Achromanyx', 'Unassigned'],
+  statuses: ['All', 'Main Cast', 'Supporting Cast', 'Side Cast', 'Lore Important', 'Mascot', 'Concept'],
+  rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Ultra Rare', 'Unique'],
+  species: ['All', 'Chromas', 'Nyxes', 'Chromyxs', 'Daemyxs', 'Blendews', 'Chromdroids', 'Nullifyers'],
+  itemTypes: ['All', 'Fluorescent Star City', 'Grim Colours', 'Flurain', 'Cynefin', 'Sereine', 'Echor',],
+  traitTypes: ['All', 'Rainbop', 'Nullyx', 'Slumbering Whispers', 'Dewfall',]
+}
 
-    designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design'],
-    statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
-    rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
-    species: ['All', 'Dog', 'Cat', 'Bunny'],
-    itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
-    traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations']
-
-  }
 
 }
 
