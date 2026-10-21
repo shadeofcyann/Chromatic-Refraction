@@ -22,12 +22,12 @@ body {
   /* Secondary Color
   ================================================================ */
   --cd-secondary-color: #73fff2;
-  --cd-secondary-text-color: #00000;
+  --cd-secondary-text-color: #ffffff;
 
   /* ============================================================= */
   /* Backgrounds
   ================================================================ */
-  --cd-body-background-color: #f8f8f8;
+  --cd-body-background-color: #00000;
   --cd-content-background-color: #ffffff;
   --cd-faded-background-color: #f8f8f8;
 
